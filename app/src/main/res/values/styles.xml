@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Title text style -->
+    <style name="titleTextMedium" parent="android:TextAppearance.Material.Headline">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_margin</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="dateTextSmall" parent="android:TextAppearance.Material.Small">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_margin</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="newsTextMedium" parent="android:TextAppearance.Material.Headline">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_margin</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- Author Name text style -->
+    <style name="authorTextSmall" parent="android:TextAppearance.Material.Small">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/text_margin</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+</resources>

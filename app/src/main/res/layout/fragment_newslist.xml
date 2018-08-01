@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/main_padding">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:elevation="@dimen/card_elevation"
+        android:minHeight="244dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/news_image"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparentFog" />
+
+            <TextView
+                android:id="@+id/item_section_name"
+                style="@style/titleTextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/category" />
+
+            <TextView
+                android:id="@+id/item_content_date"
+                style="@style/dateTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/item_news_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/item_news_content"
+                style="@style/newsTextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/item_author_name"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/content" />
+
+            <TextView
+                android:id="@+id/item_author_name"
+                style="@style/authorTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/item_web_url"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/name" />
+
+            <TextView
+                android:id="@+id/item_web_url"
+                style="@style/authorTextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/url" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/buttons_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/darkTransparent"
+            android:orientation="horizontal"
+            android:padding="@dimen/main_padding">
+
+            <Space
+                android:id="@+id/empty_space"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/buttons_margin"
+                android:background="@color/transparent"
+                android:contentDescription="@string/share"
+                android:src="@drawable/ic_share_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/favorite_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:background="@color/transparent"
+                android:contentDescription="@string/favorite"
+                android:src="@drawable/ic_favorite_border_white_24dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

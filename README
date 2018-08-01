@@ -1,0 +1,38 @@
+Hello, 
+
+Finally I'm sending Second News App. I have some troubles, but at the end i got what I want. Not all but ...
+I try to use some genetic models, was very interesting, but I remove code. Problem was I create  model with generic array. Data was send succesful and I retreive object from generic array, but I cannot find way to get data from Object[] array. I see in debuger data is there.. next time.
+
+Short for project improvments:
+
+* main search in tool bar. When user click on search popup chips with main search endpoints;
+
+* Data from internet is fetchet via AsyncTaskLoader. After that I store data in single tone model;
+
+* Network fragment to encapsulate data;
+
+* Download callback interface;
+
+* I create simple messaging with Server responds and current download states;
+
+* Drawer with provided option: Favorite, Connection, Settings and Share. Last is not finish;
+
+* Toolbar setting menu with two options. Favorite - start favotrite list fragment and second is Settings where are all Preferences;
+
+* Preferences settings are stored into three main categories:
+
+            --> First is "Content Search". Here have a lot of option from Api. Provided sections, from-date, to-date, page size, page number and few more. When user store new preference after             go back to main activity data is fetchet automaticly. Sometime make strange things. When app is restarted data is get from user preferences;
+
+            --> "Tag Search": options are search, page number, page size, show preferences;
+
+            --> "General Settings": options check default search, backup data. Data is backup into Shared preference.
+
+Setting activity is only used to inflate fragments and toolbar menu. I have two diferent activities one is extend AppCombat and other PreferenceActivity, else NO TOOLBAR:( From activity I inflate two settings fragment. One is for Searches, other for General settings.
+
+* I provide and photos. Was not in rubric, but I have to make it. Feel better.
+
+* Newst List view has two buttons - share and favorite; Only Favorite is working, and if backup is turn on save data into Shared Preference;
+
+I things that all. I hope to cover rubric. Was little difficult, but result come with hard work:)
+
+Thanks and all best.

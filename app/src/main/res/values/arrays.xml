@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Define some Arrays -->
+<resources>
+
+    <!-- Define Search Settings option Order-by -->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+
+    <!-- Define Search Settings option Section  -->
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_books_value</item>
+        <item>@string/settings_section_business_value</item>
+        <item>@string/settings_section_business_to_business_value</item>
+        <item>@string/settings_child_books_site_value</item>
+        <item>@string/settings_section_cities_value</item>
+        <item>@string/settings_section_culture_value</item>
+        <item>@string/settings_section_education_value</item>
+        <item>@string/settings_section_environment_value</item>
+        <item>@string/settings_section_extra_value</item>
+        <item>@string/settings_section_fashion_value</item>
+        <item>@string/settings_section_films_value</item>
+        <item>@string/settings_section_football_value</item>
+        <item>@string/settings_section_global_development_value</item>
+        <item>@string/settings_section_government_computing_network_value</item>
+        <item>@string/settings_section_guardian_professional_value</item>
+        <item>@string/settings_section_healthcare_network_value</item>
+        <item>@string/settings_section_help_value</item>
+        <item>@string/settings_section_higher_education_network_value</item>
+        <item>@string/settings_section_housing_network_value</item>
+        <item>@string/settings_section_inequality_value</item>
+        <item>@string/settings_section_info_value</item>
+        <item>@string/settings_section_jobsadvice_value</item>
+        <item>@string/settings_section_katine_value</item>
+        <item>@string/settings_section_law_value</item>
+        <item>@string/settings_section_leeds_value</item>
+        <item>@string/settings_section_lifeandstyle_value</item>
+        <item>@string/settings_section_local_value</item>
+        <item>@string/settings_section_media_value</item>
+        <item>@string/settings_section_membership_value</item>
+        <item>@string/settings_section_money_value</item>
+        <item>@string/settings_section_music_value</item>
+        <item>@string/settings_section_news_value</item>
+        <item>@string/settings_section_politics_value</item>
+        <item>@string/settings_section_science_value</item>
+        <item>@string/settings_section_search_value</item>
+        <item>@string/settings_section_society_value</item>
+        <item>@string/settings_section_sport_value</item>
+        <item>@string/settings_section_stage_value</item>
+        <item>@string/settings_section_technology_value</item>
+        <item>@string/settings_section_theguardian_value</item>
+        <item>@string/settings_section_theobserver_value</item>
+        <item>@string/settings_section_travel_value</item>
+        <item>@string/settings_section_travel_offers_value</item>
+        <item>@string/settings_section_tv_and_radio_value</item>
+        <item>@string/settings_section_weather_value</item>
+        <item>@string/settings_section_world_value</item>
+    </string-array>
+
+    <!-- Define Tag Search Settings option show-reference -->
+    <string-array name="settings_show_references_labels">
+        <item>@string/settings_author_value</item>
+        <item>@string/settings_bisac_prefix_value</item>
+        <item>@string/settings_esa_cricket_match_value</item>
+        <item>@string/settings_esa_football_match_value</item>
+        <item>@string/settings_esa_football_team_value</item>
+        <item>@string/settings_esa_football_tournament_value</item>
+        <item>@string/settings_isbn_value</item>
+        <item>@string/settings_imdb_value</item>
+        <item>@string/settings_music_brainz_value</item>
+        <item>@string/settings_music_brainz_genre_value</item>
+        <item>@string/settings_opta_cricket_match_value</item>
+        <item>@string/settings_opta_football_match_value</item>
+        <item>@string/settings_opta_football_team_value</item>
+        <item>@string/settings_opta_football_tournament_value</item>
+        <item>@string/settings_pa_football_competition_value</item>
+        <item>@string/settings_pa_football_match_value</item>
+        <item>@string/settings_pa_football_team_value</item>
+        <item>@string/settings_r1_film_value</item>
+        <item>@string/settings_reuters_index_ric_value</item>
+        <item>@string/settings_reuters_stock_ric_value</item>
+        <item>@string/settings_witness_assignment_value</item>
+    </string-array>
+</resources>

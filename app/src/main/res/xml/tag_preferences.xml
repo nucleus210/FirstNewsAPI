@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_default"
+        android:entries="@array/settings_section_labels"
+        android:entryValues="@array/settings_section_labels"
+        android:key="@string/settings_section_key"
+        android:title="@string/settings_section_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_show_references_search_default"
+        android:entries="@array/settings_show_references_labels"
+        android:entryValues="@array/settings_show_references_labels"
+        android:key="@string/settings_show_references_search_key"
+        android:title="@string/settings_show_references_search_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_default"
+        android:inputType="text"
+        android:key="@string/settings_search_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_page_number_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_page_number_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_page_number_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_page_size_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_page_size_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_page_size_label" />
+
+    <PreferenceCategory
+        android:key="@string/settings_local_storage_key"
+        android:summary="@string/settings_local_storage_sum"
+        android:title="@string/settings_local_storage_label">
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_local_storage_default"
+            android:key="@string/settings_local_storage_key"
+            android:summaryOn="@string/backup_on"
+            android:title="@string/settings_local_storage_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="@string/settings_query_tag_default"
+            android:key="@string/settings_query_tag_key"
+            android:summaryOn="@string/settings_check_box_default"
+            android:title="@string/settings_query_tag_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="@string/settings_query_images_default"
+            android:key="@string/settings_query_images_key"
+            android:title="@string/settings_query_images_label" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

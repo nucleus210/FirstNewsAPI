@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">First News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="first_news">First news</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="favorites">Favorite</string>
+    <string name="nav_connect">Connect</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="search_hint">search news</string>
+
+    <!--API Key-->
+    <string name="connected_to_internet">Connected to Internet</string>
+    <string name="disconnected_from_internet">Not connected to internet</string>
+    <string name="settings">settings</string>
+    <string name="server_error">Server error</string>
+    <string name="server_unknown">Bad request. Please check provided options or spelling.</string>
+    <string name="malformed_request">Bad request</string>
+    <string name="unauthorized_request">Authorization is required!</string>
+    <string name="not_found_request">Request Not found.</string>
+    <string name="connection_success">connected</string>
+    <string name="category">Category</string>
+    <string name="date">07:07:2018</string>
+    <string name="content">Content</string>
+    <string name="name">John</string>
+    <string name="url">Url</string>
+    <string name="tags">Tags</string>
+    <string name="author">By Author</string>
+    <string name="section">Section</string>
+    <string name="path_lookup">Path lookup</string>
+    <string name="favorite_fragment">Favorite</string>
+    <string name="filter_search_endpoint">Filter Search Endpoint</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="endpoint_search">search</string>
+    <string name="endpoint_sections">sections</string>
+    <string name="endpoint_tags">tags</string>
+    <string name="contributor">-tags?contributor</string>
+    <string name="protocol">https</string>
+    <string name="state_msg">setState()</string>
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+    <string name="news_image">news image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings For list Search Preference [CHAR LIMIT=30] -->
+    <string name="settings_search_label">Search</string>
+    <string name="setting_search_string">news</string>
+    <string name="settings_search_key" translatable="false">search</string>
+    <string name="settings_search_default" translatable="false">news</string>
+
+    <!-- Strings For list page number Preference [CHAR LIMIT=30] -->
+    <string name="settings_page_number_label">Pages number</string>
+    <integer name="setting_page_number_int">0</integer>
+    <string name="settings_page_number_key" translatable="false">page</string>
+    <string name="settings_page_number_default" translatable="false">10</string>
+
+    <!-- Strings For query size of pages Preference [CHAR LIMIT=30] -->
+    <string name="settings_page_size_label">Pages size</string>
+    <integer name="setting_page_size_int">0</integer>
+    <string name="settings_page_size_key" translatable="false">page-size</string>
+    <string name="settings_page_size_default" translatable="false">10</string>
+
+    <!-- Strings For section [CHAR LIMIT=30]-->
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">news</string>
+
+    <!-- Strings For section [CHAR LIMIT=30]-->
+    <string name="settings_show_references_search_label">Show references</string>
+    <string name="settings_show_references_search_key" translatable="false">show-references</string>
+    <string name="settings_show_references_search_default" translatable="false">0</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_label</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_start_date_key" translatable="false">from-date</string>
+    <string name="settings_order_by_start_date_label">From date</string>
+    <string name="settings_order_by_start_date_value" translatable="false">date</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_end_date_key" translatable="false">to-date</string>
+    <string name="settings_order_by_end_date_label">To date</string>
+    <string name="settings_order_by_end_date_value" translatable="false">date</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_show_references_key" translatable="false">show-references</string>
+    <string name="settings_show_references_key_label">Show preferences</string>
+    <string name="settings_show_references_key_value" translatable="false"> </string>
+
+
+    <!-- Label for order-by newest recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+
+    <!-- Strings Content Preference [CHAR LIMIT=30] -->
+    <string name="settings_content_label">Content search</string>
+    <string name="settings_content_key" translatable="false">content search</string>
+
+    <!-- Strings Content Preference [CHAR LIMIT=30] -->
+    <string name="settings_tag_label">Tag search</string>
+    <string name="settings_tag_key" translatable="false">tag search</string>
+
+    <!-- Strings Content Preference [CHAR LIMIT=30] -->
+    <string name="settings_general_options_label">General settings</string>
+    <string name="settings_general_options_key" translatable="false">general settings</string>
+
+    <!-- Label for backup recent option [CHAR LIMIT=20] -->
+    <string name="settings_local_storage_key">backup</string>
+    <string name="settings_local_storage_label">Backup</string>
+    <string name="settings_local_storage_sum">Backup</string>
+    <string name="settings_local_storage_default">true</string>
+
+    <!-- Label for settings Check box images recent option [CHAR LIMIT=20] -->
+    <string name="settings_query_images_key">show-fields</string>
+    <string name="settings_query_images_label">Show images</string>
+    <string name="settings_query_images_default" translatable="false">true</string>
+
+    <!-- Label for settings Check box Content Search recent option [CHAR LIMIT=20] -->
+    <string name="settings_query_content_key">show-content</string>
+    <string name="settings_query_content_label">Show content</string>
+    <string name="settings_query_content_default" translatable="false">false</string>
+
+    <!-- Label for settings Check box Tag Search recent option [CHAR LIMIT=20] -->
+    <string name="settings_query_tag_key">show-tag</string>
+    <string name="settings_query_tag_label">Show by tag</string>
+    <string name="settings_query_tag_default" translatable="false">false</string>
+
+    <!-- Label for settings Check box Default Search recent option [CHAR LIMIT=20] -->
+    <string name="settings_query_default_key">show-default</string>
+    <string name="settings_query_default_label">Show default</string>
+    <string name="settings_query_default_default" translatable="false">true</string>
+
+    <!-- Label for section books recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_books_value" translatable="false">books</string>
+    <!-- Label for section business recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_business_value" translatable="false">business</string>
+    <!-- Label for section business-to-business recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_business_to_business_value" translatable="false">business-to-business</string>
+    <!-- Label for section childrens-books-site recent option [CHAR LIMIT=20] -->
+    <string name="settings_child_books_site_value" translatable="false">childrens-books-site</string>
+    <!-- Label for section cities recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_cities_value" translatable="false">cities</string>
+    <!-- Label for section culture recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_culture_value" translatable="false">culture</string>
+    <!-- Label for section education recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_education_value" translatable="false">education</string>
+    <!-- Label for section environment recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_environment_value" translatable="false">environment</string>
+    <!-- Label for section extra recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_extra_value" translatable="false">extra</string>
+    <!-- Label for section fashion recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_fashion_value" translatable="false">fashion</string>
+    <!-- Label for section film recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_films_value" translatable="false">film</string>
+    <!-- Label for section football recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_football_value" translatable="false">football</string>
+    <!-- Label for section global-development recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_global_development_value" translatable="false">global-development</string>
+    <!-- Label for section government-computing-network recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_government_computing_network_value" translatable="false">government-computing-network</string>
+    <!-- Label for section guardian-professional recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_guardian_professional_value" translatable="false">guardian-professional</string>
+    <!-- Label for section health care-network recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_healthcare_network_value" translatable="false">healthcare-network</string>
+    <!-- Label for section help recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_help_value" translatable="false">help</string>
+    <!-- Label for section higher-education-network recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_higher_education_network_value" translatable="false">higher-education-network</string>
+    <!-- Label for section housing-network recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_housing_network_value" translatable="false">housing-network</string>
+    <!-- Label for section inequality recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_inequality_value" translatable="false">inequality</string>
+    <!-- Label for section info recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_info_value" translatable="false">info</string>
+    <!-- Label for section jobs advice recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_jobsadvice_value" translatable="false">jobsadvice</string>
+    <!-- Label for section katine recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_katine_value" translatable="false">katine</string>
+    <!-- Label for section law recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_law_value" translatable="false">law</string>
+    <!-- Label for section leeds recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_leeds_value" translatable="false">leeds</string>
+    <!-- Label for section life and style recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_lifeandstyle_value" translatable="false">lifeandstyle</string>
+    <!-- Label for section local recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_local_value" translatable="false">local</string>
+    <!-- Label for section business recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_media_value" translatable="false">media</string>
+    <!-- Label for section membership recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_membership_value" translatable="false">membership</string>
+    <!-- Label for section money recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_money_value" translatable="false">money</string>
+    <!-- Label for section music recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_music_value" translatable="false">music</string>
+    <!-- Label for section news recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_news_value" translatable="false">news</string>
+    <!-- Label for section politics recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_politics_value" translatable="false">politics</string>
+    <!-- Label for section business recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_science_value" translatable="false">science</string>
+    <!-- Label for section search recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_search_value" translatable="false">search</string>
+    <!-- Label for section society recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_society_value" translatable="false">society</string>
+    <!-- Label for section business recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_sport_value" translatable="false">sport</string>
+    <!-- Label for section stage recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_stage_value" translatable="false">stage</string>
+    <!-- Label for section technology recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+    <!-- Label for section the guardian recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_theguardian_value" translatable="false">theguardian</string>
+    <!-- Label for section the observer recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_theobserver_value" translatable="false">theobserver</string>
+    <!-- Label for section travel recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+    <!-- Label for section travel/offers recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_offers_value" translatable="false">travel/offers</string>
+    <!-- Label for order-by tv-and-radio recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_tv_and_radio_value" translatable="false">tv-and-radio</string>
+    <!-- Label for section weather recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_weather_value" translatable="false">weather</string>
+    <!-- Label for section world recent option [CHAR LIMIT=20] -->
+    <string name="settings_section_world_value" translatable="false">world</string>
+
+
+    <!-- Label for tag author recent option [CHAR LIMIT=20] -->
+    <string name="settings_author_value" translatable="false">author</string>
+    <!-- Label for tag bisac-prefix recent option [CHAR LIMIT=20] -->
+    <string name="settings_bisac_prefix_value" translatable="false">bisac-prefix</string>
+    <!-- Label for tag esa-cricket-match recent option [CHAR LIMIT=20] -->
+    <string name="settings_esa_cricket_match_value" translatable="false">esa-cricket-match</string>
+    <!-- Label for tag esa-football-match recent option [CHAR LIMIT=20] -->
+    <string name="settings_esa_football_match_value" translatable="false">esa-football-match</string>
+    <!-- Label for tag esa-football-team recent option [CHAR LIMIT=20] -->
+    <string name="settings_esa_football_team_value" translatable="false">esa-football-team</string>
+    <!-- Label for tag esa-football-tournament recent option [CHAR LIMIT=20] -->
+    <string name="settings_esa_football_tournament_value" translatable="false">esa-football-tournament</string>
+    <!-- Label for tag isbn recent option [CHAR LIMIT=20] -->
+    <string name="settings_isbn_value" translatable="false">isbn</string>
+    <!-- Label for tag imdb recent option [CHAR LIMIT=20] -->
+    <string name="settings_imdb_value" translatable="false">imdb</string>
+    <!-- Label for tag music brainz recent option [CHAR LIMIT=20] -->
+    <string name="settings_music_brainz_value" translatable="false">musicbrainz</string>
+    <!-- Label for tag music brainz genre recent option [CHAR LIMIT=20] -->
+    <string name="settings_music_brainz_genre_value" translatable="false">musicbrainzgenre</string>
+    <!-- Label for tag opta-cricket-match recent option [CHAR LIMIT=20] -->
+    <string name="settings_opta_cricket_match_value" translatable="false">opta-cricket-match</string>
+    <!-- Label for tag opta-football-match recent option [CHAR LIMIT=20] -->
+    <string name="settings_opta_football_match_value" translatable="false">opta-football-match</string>
+    <!-- Label for tag opta-football-team recent option [CHAR LIMIT=20] -->
+    <string name="settings_opta_football_team_value" translatable="false">opta-football-team</string>
+    <!-- Label for tag opta-football-tournament recent option [CHAR LIMIT=20] -->
+    <string name="settings_opta_football_tournament_value" translatable="false">opta-football-tournament</string>
+    <!-- Label for tag pa-football-competition recent option [CHAR LIMIT=20] -->
+    <string name="settings_pa_football_competition_value" translatable="false">pa-football-competition</string>
+    <!-- Label for tag pa-football-match recent option [CHAR LIMIT=20] -->
+    <string name="settings_pa_football_match_value" translatable="false">pa-football-match</string>
+    <!-- Label for tag pa-football-team recent option [CHAR LIMIT=20] -->
+    <string name="settings_pa_football_team_value" translatable="false">pa-football-team</string>
+    <!-- Label for tag r1-film recent option [CHAR LIMIT=20] -->
+    <string name="settings_r1_film_value" translatable="false">r1-film</string>
+    <!-- Label for tag reuters-index-ric recent option [CHAR LIMIT=20] -->
+    <string name="settings_reuters_index_ric_value" translatable="false">reuters-index-ric</string>
+    <!-- Label for tag reuters-stock-ric recent option [CHAR LIMIT=20] -->
+    <string name="settings_reuters_stock_ric_value" translatable="false">reuters-stock-ric</string>
+    <!-- Label for tag witness-assignment recent option [CHAR LIMIT=20] -->
+    <string name="settings_witness_assignment_value" translatable="false">witness-assignment</string>
+    <!-- Label for default check box option [CHAR LIMIT=20] -->
+    <string name="settings_check_box_default">default</string>
+    <!-- Label for back button [CHAR LIMIT=20] -->
+    <string name="back_bt">back button</string>
+
+    <string name="date_picker_code">https://stackoverflow.com/questions/4216082/how-to-use-datepickerdialog-as-a-preference</string>
+    <string name="backup_on">backup is on</string>
+
+</resources>
